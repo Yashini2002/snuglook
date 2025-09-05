@@ -1,0 +1,259 @@
+.homepage {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  padding: 6px 16px;
+}
+
+.header-left {
+  display: flex;
+  
+}
+
+.header-left .logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.header-left .brand-name {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 45px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-variation-settings: 'slnt' 20;
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0 8px;
+}
+
+.header-right .login-link {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.main-banner {
+  display: flex;
+  background: #314130;
+  color: #fff;
+  align-items: center;
+  padding: 40px 0;
+  position: relative;
+  min-height: 320px;
+}
+
+.banner-content {
+  flex: 1;
+  padding-left: 48px;
+}
+
+.banner-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  letter-spacing: 6px;
+  margin: 0 0 16px 0;
+}
+
+.carousel-dots {
+  margin-bottom: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #aaa;
+  border-radius: 50%;
+  margin-right: 6px;
+  opacity: 0.5;
+}
+
+.dot.active {
+  background: #fff;
+  opacity: 1;
+}
+
+.shop-now-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.banner-model {
+  margin-right: 48px;
+}
+
+.banner-model img {
+  width: 240px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.about-tryon {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  background: #e6e6e6;
+}
+
+.about-img {
+  margin-left: 32px;
+}
+
+.about-img img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-text {
+  flex: 1;
+  padding-left: 32px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  background: #fafafa;
+  padding: 22px 0;
+}
+
+.brand-box {
+  background: #fff;
+  padding: 18px 28px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 7px 0 rgba(120,120,120,0.09);
+  display: flex;
+  align-items: center;
+  min-width: 110px;
+  justify-content: center;
+}
+
+.brand-box.hai-day {
+  background: #7d5ba6;
+  color: #fff;
+}
+
+.brand-box.dior {
+  background: #fff;
+  color: #222;
+}
+
+.brand-box .arrow {
+  margin-left: 7px;
+  font-size: 1.3rem;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 36px 0 12px 0;
+  background: #fff;
+}
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 14px 0 rgba(60,60,60,0.13);
+}
+
+.category-btn {
+  background: #222;
+  color: #fff;
+  padding: 7px 24px;
+  border-radius: 18px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.try-before-buy {
+  text-align: center;
+  background: #fff;
+  padding-bottom: 32px;
+}
+
+.try-before-buy h3 {
+  font-size: 1.2rem;
+  margin: 17px 0 11px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 20px 32px;
+  font-size: 1rem;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-left .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.payment-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-icons img {
+  height: 18px;
+  vertical-align: middle;
+}
